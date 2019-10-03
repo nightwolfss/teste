@@ -14,7 +14,7 @@ public class Main {
 
 		HttpURLConnection connection;
 		try {
-			connection = (HttpURLConnection)new URL( "http://integracao.inpi.gov.br/patentews/dados/BR1120170041014" ).openConnection();
+			connection = (HttpURLConnection)new URL( "https://globoesporte.globo.com/motor/formula-1/" ).openConnection();
 			connection.getResponseCode();
 			
 		} catch (MalformedURLException e) {
