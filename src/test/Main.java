@@ -14,7 +14,7 @@ public class Main {
 
 		HttpURLConnection connection;
 		try {
-			connection = (HttpURLConnection)new URL( "https://globoesporte.globo.com/motor/formula-1/" ).openConnection();
+			connection = (HttpURLConnection)new URL( "https://portal.estacio.br/" ).openConnection();
 			connection.getResponseCode();
 			
 		} catch (MalformedURLException e) {
